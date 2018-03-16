@@ -59,14 +59,18 @@ public class MyTest005 {
     public static void main(String[] args) {
         String str = " a b c                                      ";
         String str2 = "a b c                                      ";
+        String str3 = " a b  c                                      ";
         char[] chars = str.toCharArray();
         char[] chars2 = str2.toCharArray();
+        char[] chars3 = str3.toCharArray();
 
 //        replaceBlank(chars, 6);
         replaceBlank(chars2, 5);
+        replaceBlank(chars3, 7);
 
 //        System.out.println(chars);
         System.out.println(chars2);
+        System.out.println(chars3);
     }
 
 }
